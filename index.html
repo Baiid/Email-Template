@@ -1,0 +1,501 @@
+<!-- Doctype for Emails -->
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Apparel HTML Email Template</title>
+
+
+	<style type="text/css">
+		body {
+			margin: 0;
+			background-color: #ffffff;
+		}
+
+		table {
+			border-spacing: 0;
+		}
+
+		td {
+			padding: 0;
+		}
+
+		img {
+			border: 0;
+		}
+
+		.wr {
+			width: 100%;
+			table-layout: fixed;
+			background-color: #dadada;
+			padding-bottom: 40px;
+		}
+
+		/* body max width 600px */
+		.body {
+			background-color: rgb(255, 255, 255);
+			margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			color: black;
+
+		}
+
+		p {
+			font-size: 15px
+		}
+
+		.text-header {
+			text-align: center;
+
+		}
+
+		.text-header h4 {
+			padding: 0;
+			margin: 0;
+		}
+
+		.text-header h2 {
+			margin-bottom: 20px;
+			margin-top: 0;
+		}
+
+
+		/* paragraph margin and padding adjustment */
+
+		.text-header p:nth-child(4) {
+			margin-top: 0;
+			padding: 0;
+		}
+
+		.text-header p:nth-child(3) {
+
+			margin: 0;
+			padding: 0;
+
+
+		}
+
+		.text-header span {
+			color: rgb(165, 165, 165);
+		}
+
+
+		.two-columns {
+			text-align: center;
+			font-size: 0;
+			padding-top: 20px;
+		}
+
+		/* Two columns have 300 px max width and are align to the top */
+		.two-columns .column {
+			max-width: 300px;
+			display: inline-block;
+			padding: 0 20px;
+			vertical-align: top;
+			text-align: center;
+			font-size: 18px;
+
+		}
+
+		.three-columns {
+			text-align: center;
+			font-size: 0;
+			padding-top: 20px;
+		}
+
+		/* Three columns have 200px max width and are align to the top */
+		.three-columns .th-column {
+			max-width: 200px;
+			display: inline-block;
+			padding: 0 50px;
+			vertical-align: top;
+			text-align: center;
+			font-size: 15px;
+		}
+
+		.button {
+			background-color: black;
+			color: white;
+			text-decoration: none;
+			font-size: 15px;
+			padding: 10px 40px;
+			border-radius: 2px;
+		}
+
+
+
+		@media screen and (max-width:600px) {
+
+			/* Reverse columns in the second images The new new */
+			.two-columns.two-columns-rev {
+
+				display: flex;
+				flex-direction: column-reverse;
+				align-items: center;
+
+			}
+
+			.p-text {
+				padding: 0 40px;
+			}
+
+
+			.two-columns .column-2 {
+				margin-top: 20px;
+
+			}
+
+			.column img {
+				padding: 0 !important;
+			}
+
+			.column-last {
+				margin-bottom: 50px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Wrap to look like its an email - light gray background -->
+	<center class="wr">
+		<table class="body" width="100%">
+
+
+
+
+			<!-- Next Day Delivery -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td
+								style="text-align: center; padding: 5px; font-size: 10px; border-bottom: 1px solid black;">
+								<p>NEXT DAY DELIVERY</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<!-- LOGO -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td style="text-align: center; padding: 45px;">
+								<a href="#"><img src="./images/ALPHALETE_300x.png" alt="logo" width="180px"
+										title="Alphalete"></a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+
+			<!-- Text Header -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="text-header">
+								<h4><span>THIS IS </span>NOT <span>A</span></h4>
+								<h2>ALPHALETE CATALOGUE</h2>
+								<p>Alphalete don't do catalogues.</p>
+								<p>That's not our style.</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td
+								style="text-align: center; font-size: 15px;background-color:white;padding-bottom: 20px;">
+								<p class="p-text">So here's a selection of Alphalete products that we think may catch
+									your eye.</p>
+
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<!--Shop Now Button-->
+			<tr>
+				<td>
+					<table width="100%" style="margin-bottom: 40px;">
+						<tr>
+							<td style="text-align: center; ;background-color:white; ">
+								<a href="#" class="button">Buy Now</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+
+			<!-- Two col first section Fam favourites -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
+
+								<table class="column">
+									<tr>
+										<td>
+											<a href="#"><img src="./images/Favourites.jpeg" alt=""
+													style="max-width:100%; "></a>
+
+
+										</td>
+									</tr>
+								</table>
+
+								<table class="column">
+									<tr>
+										<td>
+											<h4>FAM FAVOURITES</h4>
+											<p>A look at some Alphalete mush haves as chosen by our own community</p>
+											<a href="#" class="button">Buy Now</a>
+
+										</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<!-- Two col second section The lates -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="two-columns two-columns-rev">
+
+
+								<table class="column column-1">
+									<tr>
+										<td>
+											<h4>THAT NEW NEW</h4>
+											<p>The latest and greatest ranges. These bits don't stick around for long
+												though... </p>
+											<a href="#" class="button">Buy Now</a>
+
+										</td>
+									</tr>
+								</table>
+								<table class="column column-2">
+									<tr>
+										<td>
+											<a href="#"><img src="./images/Shots.jpeg" alt=""
+													style="max-width:100%; padding-bottom:40px;"></a>
+
+
+										</td>
+									</tr>
+								</table>
+
+
+
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- Two col second section full range -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
+
+
+
+								<table class="column">
+									<tr>
+										<td>
+											<a href="#"><img src="./images/full-range.jpeg" alt=""
+													style="max-width:100%; padding-bottom:40px;"></a>
+
+										</td>
+									</tr>
+								</table>
+
+								<table class="column column-last">
+									<tr>
+										<td>
+											<h4>THE FULL RANGE</h4>
+											<p>It doesn't matter whether chest day or rest day, we're sure there's
+												something for you everyday </p>
+											<a href="#" class="button">Buy Now</a>
+
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+
+
+			<!-- LOGO -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td style="text-align: center; ">
+								<a href="#"><img src="./images/FULL ALPHALETE RANGE.png" alt="logo" width="100%"
+										style="max-width: 600px;" title="Alphalete"></a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+
+
+
+			<!-- Two columns - Mens/Womans-->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
+
+
+
+								<table class="column">
+
+									<tr>
+										<td>
+											<a href="#"><img src="./images/WOMANS.png" alt=""
+													style="max-width:100%; padding-bottom:40px;"></a>
+
+
+										</td>
+									</tr>
+								</table>
+
+								<table class="column">
+									<tr>
+										<td>
+											<a href="#"><img src="./images/MENS.png" alt=""
+													style="max-width:100%; padding-bottom:40px;"></a>
+
+
+										</td>
+									</tr>
+								</table>
+
+
+
+
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+
+
+
+
+
+			<!-- Three columns -->
+			<tr>
+				<td>
+					<table width="100%">
+						<caption>ORDER MADE EASY</caption>
+						<tr>
+							<td class="three-columns">
+								<table class="th-column">
+
+									<tr>
+										<td>
+											<img src="./images/exchange.png" alt="" width="40px">
+											<p>Free return</p>
+
+										</td>
+									</tr>
+								</table>
+
+								<table class="th-column ">
+									<tr>
+										<td>
+											<img src="./images/credit-card.png" alt="" width="40px">
+											<p>Wide range of payments</p>
+											<p></p>
+										</td>
+									</tr>
+								</table>
+
+								<table class="th-column ">
+									<tr>
+										<td>
+											<img src="./images/customer-service.png" alt="" width="40px">
+											<p>Word class support</p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+
+			<!-- Social media icons -->
+			<tr>
+				<td>
+					<table width="100%">
+
+						<tr>
+							<td style="text-align: center; padding: 25px 0 35px; ">
+								<a href="#"><img src="./images/dark-facebook.png" alt="" width="40"></a>
+								<a href="#"><img src="./images/dark-twitter.png" alt="" width="40"></a>
+								<a href="#"><img src="./images/dark-youtube.png" alt="" width="40"></a>
+								<a href="#"><img src="./images/dark-instagram.png" alt="" width="40"></a>
+							</td>
+						</tr>
+
+
+					</table>
+				</td>
+			</tr>
+
+			<!--Black line last -->
+
+
+			<tr>
+				<td height="5" style="background-color: rgb(13, 14, 13); ">
+
+				</td>
+			</tr>
+
+
+		</table>
+	</center>
+</body>
+
+</html>
